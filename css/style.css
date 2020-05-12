@@ -1,0 +1,40 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+
+}
+header{
+	background-image: linear-gradient(rgba(0, 0, 0, 6)rgba(0, 0, 0, 6)), url('css/images/header.jpg');
+	height: 10vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center; 
+}
+.row{
+	max-width: 1180px;
+	margin: 0px;
+}
+
+.logo{
+	height: 120px;
+	width: auto;
+	float: left;
+	margin-top: 20px;
+	
+}
+.main-nav{
+	float: right;
+	margin-top: 60px; 
+}
+.colorchange{
+	animation: colorchangejohn 1s infinite;
+}
+  @keyframes colorchangejohn{
+     0%{color: red;}
+     25%{color: purple;}
+     50%{color: white;}
+     100%{color: purple;}
+
+
+}
